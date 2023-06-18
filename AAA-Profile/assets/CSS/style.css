@@ -22,13 +22,14 @@ h1 {
   }
   
   nav ul {
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
     min-width: 300px;
   }
   
   nav a {
-    color: #b9c6ae;
+    color: #b90089;
     font-weight: bold;
     text-decoration: none;
   }
