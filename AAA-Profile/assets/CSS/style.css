@@ -1,23 +1,5 @@
-header {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    padding: 5%;
-    background-color: #143265;
-    color: #fff;
-}
-h1 {
-    font-size: 200%;
-  }
-  h3 {
-    font-size: 100%;
-  }
- /*profile photo rounding*/
-  img {
-    border: 5px solid #fff;
-    border-radius: 50%;
-  } 
-  nav ul {
+ /*navigation bar*/
+nav ul {
     display: flex;
     list-style-type: none;
     flex-direction: row;
@@ -36,24 +18,48 @@ h1 {
     color: #b90089;
   }
 
+ /*header styling*/
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 5%;
+    background-color: #143265;
+    color: #fff;
+}
+h1 {
+    font-size: 200%;
+  }
+
+ /*profile photo rounding*/
+  img {
+    border: 5px solid #fff;
+    border-radius: 50%;
+  } 
+
+  
+
   main {
     display: flex;
     flex-wrap: wrap;
 }
-/*side bar stuff*/
-aside {
-    flex: 1;
-    background-color: #b9c6ae;
-    padding: 80px;
-    text-align: center;
+
+/*the boxes*/
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
   }
+
 /*the body section*/
   section {
     flex: 3;
     background-color: #fff;
     padding: 20px;
 }
-
+ /*contact me footer*/
   footer {
     display: below;
     font-size: 150%;
@@ -61,6 +67,6 @@ aside {
     text-align: center;
     align-items: center;
     padding: 0%;
-    background-color: #143265;
+    background-color: #a1066f;
     color: #fff;
 }
