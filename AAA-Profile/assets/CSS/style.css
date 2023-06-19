@@ -1,31 +1,36 @@
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
-    padding: 1%;
+    padding: 5%;
     background-color: #143265;
     color: #fff;
 }
 h1 {
     font-size: 200%;
   }
- 
+ /*profile photo rounding*/
+  img {
+    border: 5px solid #fff;
+    border-radius: 50%;
+  } 
   nav ul {
     display: flex;
     list-style-type: none;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-between;
     min-width: 300px;
+    max-width: 300px;
   }
   
   nav a {
-    color: #b90089;
+    color: #fff;
     font-weight: bold;
     text-decoration: none;
   }
   
   nav a:hover {
-    color: #fff;
+    color: #b90089;
   }
 
   main {
