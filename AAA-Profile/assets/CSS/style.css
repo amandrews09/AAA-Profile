@@ -33,10 +33,21 @@ h1 {
   }
 
  /*profile photo rounding*/
-  img {
+  .ProfilePhoto {
     border: 5px solid #fff;
     border-radius: 50%;
   } 
+/*hover changes to photos*/
+.link:hover {
+    opacity: 0.4;
+        filter: alpha(opacity=40);
+}
+
+
+
+  img {
+    border: 5px solid #fff
+  }
 
   
 
