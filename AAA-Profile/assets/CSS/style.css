@@ -29,6 +29,7 @@ header {
 }
 h1 {
     font-size: 200%;
+    color: #fff;
   }
 
  /*profile photo rounding*/
@@ -46,9 +47,10 @@ h1 {
 
 /*the boxes*/
 div {
-    background-color: lightgrey;
-    width: 300px;
-    border: 15px solid green;
+    display: flex;
+    background-color: #f50ae8;
+    width: 600px;
+    border: 5px solid #b90089;
     padding: 50px;
     margin: 20px;
   }
