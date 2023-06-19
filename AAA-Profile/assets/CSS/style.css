@@ -28,6 +28,24 @@ h1 {
     color: #fff;
   }
 
+  main {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*side bar stuff*/
+aside {
+    flex: 1;
+    background-color: #b9c6ae;
+    padding: 80px;
+    text-align: center;
+  }
+/*the body section*/
+  section {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+}
+
   footer {
     display: below;
     font-size: 150%;
