@@ -1,5 +1,5 @@
  /*navigation bar*/
-nav ul {
+ nav ul {
     display: flex;
     list-style-type: none;
     flex-direction: row;
@@ -43,7 +43,29 @@ h1 {
         filter: alpha(opacity=40);
 }
 
+/* the text over the images */
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+  color: white;
+  backdrop-filter: blur(14px) brightness(80%);
+}
 
+.responsive{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.responsive2{
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
 
   img {
     border: 5px solid #fff
@@ -72,13 +94,35 @@ h1 {
     background-color: #fff;
     padding: 20px;
 }
-/* Container holding the image and the text */
+/* Containers holding the image and the text */
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.image-gallery > li {
+  flex-basis: 350px; /* width: 350px; */
+}
+
+.image-gallery li img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+
 .container1 {
     position: relative;
-  }
+}
+  /* }
 
 .container2 {
     position: relative;
+   
 }
 
 .container3 {
@@ -92,7 +136,7 @@ h1 {
 .container5 {
     position: relative;
 }
-  
+   */
   /* Bottom right text */
   .text-block {
     position: absolute;
