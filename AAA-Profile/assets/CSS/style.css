@@ -57,15 +57,10 @@ h1 {
 
 .responsive{
   width: 100%;
-  max-width: 400px;
+  max-width: 100px;
   height: auto;
 }
 
-.responsive2{
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-}
 
   img {
     border: 5px solid #fff
@@ -89,21 +84,42 @@ h1 {
   }
 
 /*the body section*/
-  section {
+section {
     flex: 3;
     background-color: #fff;
     padding: 20px;
 }
 /* Containers holding the image and the text */
 
+.imgBigger{
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 2/1;
+}
+
+.img{
+  width: 50%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
 .image-gallery {
+  list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
 }
+
 .image-gallery > li {
-  flex-basis: 350px; /* width: 350px; */
+  flex-basis: 350px; /*width: 350px;*/
+  position: relative;
+  cursor: pointer;
+}
+
+.image-gallery::after {
+  content: "";
+  flex-basis: 350px;
 }
 
 .image-gallery li img {
@@ -114,48 +130,32 @@ h1 {
   border-radius: 5px;
 }
 
+.overlay {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background: rgba(57, 57, 57, 0.502);
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  transition: all 0.2s 0.1s ease-in-out;
+  color: #fff;
+  border-radius: 5px;
+  /* center overlay text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* hover */
+.image-gallery li:hover .overlay {
+  transform: scale(1);
+}
+
 
 .container1 {
     position: relative;
 }
-  /* }
-
-.container2 {
-    position: relative;
-   
-}
-
-.container3 {
-    position: relative;
-}
-
-.container4 {
-    position: relative;
-}
-
-.container5 {
-    position: relative;
-}
-   */
-  /* Bottom right text */
-  .text-block {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .text-block2 {
-    position: relative;
-    bottom: 20px;
-    left: 20px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
 
  /*contact me footer*/
   footer {
