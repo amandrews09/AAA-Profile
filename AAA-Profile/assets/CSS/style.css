@@ -132,8 +132,8 @@ section {
 
 .overlay {
   position: absolute;
-  width: 50%;
-  height: 100%;
+  width: 25%;
+  height: 25%;
   background: rgba(57, 57, 57, 0.502);
   top: 0;
   left: 0;
