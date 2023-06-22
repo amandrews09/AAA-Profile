@@ -57,7 +57,7 @@ h1 {
 }
 
 /*the boxes*/
-div {
+.box {
     display: flex;
     background-color: #f50ae8;
     width: 600px;
@@ -72,6 +72,47 @@ div {
     background-color: #fff;
     padding: 20px;
 }
+/* Container holding the image and the text */
+.container1 {
+    position: relative;
+  }
+
+.container2 {
+    position: relative;
+}
+
+.container3 {
+    position: relative;
+}
+
+.container4 {
+    position: relative;
+}
+
+.container5 {
+    position: relative;
+}
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .text-block2 {
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
  /*contact me footer*/
   footer {
     display: below;
