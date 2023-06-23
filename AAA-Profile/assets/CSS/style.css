@@ -37,6 +37,15 @@ h1 {
     border: 5px solid #fff;
     border-radius: 50%;
   } 
+
+  .container {
+    display: flex;
+    width: 450px;
+    height: 300px;
+    border: 2px solid red;
+  }
+
+
 /*hover changes to photos*/
 .link:hover {
     opacity: 0.4;
@@ -91,14 +100,10 @@ section {
 }
 /* Containers holding the image and the text */
 
-.imgBigger{
-  width: 100%;
-  object-fit: cover;
-  aspect-ratio: 2/1;
-}
+
 
 .img{
-  width: 50%;
+  width: 100%;
   object-fit: cover;
   aspect-ratio: 1/1;
 }
@@ -111,8 +116,10 @@ section {
   gap: 20px;
 }
 
-.image-gallery > li {
-  flex-basis: 350px; /*width: 350px;*/
+.image-gallery > li:not(:first-child) {
+  height: 150px;
+  width: 150px;
+  /* background-color: orange; */
   position: relative;
   cursor: pointer;
 }
@@ -130,6 +137,18 @@ section {
   border-radius: 5px;
 }
 
+.image-gallery-bigger {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  cursor: pointer;
+}
+
+.imgBigger{
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
 .overlay {
   position: absolute;
   width: 25%;
