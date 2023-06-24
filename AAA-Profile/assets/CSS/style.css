@@ -31,19 +31,15 @@ h1 {
     font-size: 200%;
     color: #fff;
   }
+h2 {
+  font-size: 75%;
+}
 
  /*profile photo rounding*/
   .ProfilePhoto {
     border: 5px solid #fff;
     border-radius: 50%;
   } 
-
-  .container {
-    display: flex;
-    width: 450px;
-    height: 300px;
-    border: 2px solid red;
-  }
 
 
 /*hover changes to photos*/
