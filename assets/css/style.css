@@ -82,6 +82,7 @@ h2 {
 .box {
     display: flex;
     background-color: #6a1e2a;
+    color: white;
     width: 600px;
     border: 5px solid white;
     padding: 50px;
