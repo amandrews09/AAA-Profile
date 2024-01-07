@@ -15,7 +15,7 @@
   }
   
   nav a:hover {
-    color: #b90089;
+    color: #676a1e;
   }
 
  /*header styling*/
@@ -24,7 +24,7 @@ header {
     justify-content: left;
     align-items: center;
     padding: 5%;
-    background-color: #143265;
+    background-color: #1e486a;
     color: #fff;
 }
 h1 {
@@ -81,9 +81,9 @@ h2 {
 /*the boxes*/
 .box {
     display: flex;
-    background-color: #f50ae8;
+    background-color: #6a1e2a;
     width: 600px;
-    border: 5px solid #b90089;
+    border: 5px solid white;
     padding: 50px;
     margin: 20px;
   }
@@ -180,6 +180,6 @@ section {
     text-align: center;
     align-items: center;
     padding: 0%;
-    background-color: #a1066f;
+    background-color: #bf364c;
     color: #fff;
 }
